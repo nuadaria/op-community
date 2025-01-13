@@ -1,0 +1,11 @@
+/* tag-based color-coding borders */
+
+.content-list-item-container.tag-uncommon .content-list-item {border-width: 7px; border-style: double; border-color: #23801c; position: relative;}
+
+.content-list-item-container.tag-rare .content-list-item {border-width: 7px; border-style: double; border-color: #2a52b0; position: relative;}
+
+.content-list-item-container.tag-very-rare .content-list-item {border-width: 7px; border-style: double; border-color: #742ab0; position: relative;}
+
+.content-list-item-container.tag-legendary .content-list-item {border-width: 7px; border-style: double; border-color: #b09e2a; position: relative;}
+
+.content-list-item-container.tag-mythic .content-list-item {border-width: 7px; border-style: double; border-color: #c71c1c; position: relative;}
