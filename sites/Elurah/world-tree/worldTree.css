@@ -1,0 +1,35 @@
+.treewrapper { position: relative; }
+
+.treemap { position: relative; max-width: 1200px; margin: auto; z-index: 5; }
+
+.cron { position: absolute; top: 8.5%; left: 23.5%; width:13%; }
+.cron:hover { filter: drop-shadow( 0 0 10px #2AC333); } 
+.croncrest { opacity: 0; position: absolute; top: 19.5%; left: 19.5%; width: 61%; z-index: -1; }
+.cron:hover + .croncrest { opacity: 1; }
+
+.ardan { position: absolute; top: 43%; left: 3%; width:13%; }
+.ardan:hover { filter: drop-shadow( 0 0 10px #F292FF); } 
+.ardancrest { opacity: 0; position: absolute; top: 19.5%; left: 19.5%; width: 61%; z-index: -1; }
+.ardan:hover + .ardancrest { opacity: 1; }
+
+.falana { position: absolute; top: 43%; right: 3%; width:13%; }
+.falana:hover { filter: drop-shadow( 0 0 10px #A355FF); } 
+.falanacrest { opacity: 0; position: absolute; top: 19.5%; left: 19.5%; width: 61%; z-index: -1; }
+.falana:hover + .falanacrest { opacity: 1; }
+
+.sior { position: absolute; top: 8.5%; right: 23%; width:13%; }
+.sior:hover { filter: drop-shadow( 0 0 10px #36D3F0); } 
+.siorcrest { opacity: 0; position: absolute; top: 19.5%; left: 19.5%; width: 61%; z-index: -1; }
+.sior:hover + .siorcrest { opacity: 1; }
+
+.ail { position: absolute; bottom: 8.5%; right: 23%; width:13%; }
+.ail:hover { filter: drop-shadow( 0 0 10px #595EF0); } 
+.ailcrest { opacity: 0; position: absolute; top: 19.5%; left: 19.5%; width: 61%; z-index: -1; }
+.ail:hover + .ailcrest { opacity: 1; }
+
+.tirt { position: absolute; bottom: 8.5%; left: 23.5%; width:13%; }
+.tirt:hover { filter: drop-shadow( 0 0 10px #20833C); } 
+.tirtcrest { opacity: 0; position: absolute; top: 19.5%; left: 19.5%; width: 61%; z-index: -1; }
+.tirt:hover + .tirtcrest { opacity: 1; }
+
+.crestbg { opacity: 0.1; position: absolute; top: 19.25%; left: 19.75%; width: 61%; z-index: -2; }
