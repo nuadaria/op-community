@@ -1,3 +1,7 @@
+/* IMG FLIP CARD FLEX */
+
+.image-flip { display: flex; position: relative; justify-content: center; align-items: center; gap: 20px; flex-wrap: wrap; }
+
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 
 .flip-card { background-color: transparent; width: 200px; height: 220px; border-width: 10px; border-style: double; border-color: #880000; perspective: 1000px; }
