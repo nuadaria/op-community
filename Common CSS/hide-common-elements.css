@@ -1,0 +1,16 @@
+/* Hide Page Toppers */
+
+.highlight-container { display: none;}
+
+/* Hide Dragon */
+
+.campaign-title, .flame-dragon{ display:none!important; }
+
+/* Hide Page Titles */
+
+.wiki-page-name.title { display: none;}
+
+/* Remove Page Tags */
+
+div.tags {display:none}
+ul.tags-list {display:none}
